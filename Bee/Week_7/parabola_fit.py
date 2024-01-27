@@ -84,3 +84,6 @@ path_arr = np.array(path_list)
 output = np.column_stack((path_list,list_of_max_L))
 print(output)
 np.savetxt(f'output.txt',output,fmt='%s')
+
+# run python3 parabola_fit.py 20221128T1221_air_36_c.txt
+# if u uncomment lines 9-17 and 75, that should save a pgf
